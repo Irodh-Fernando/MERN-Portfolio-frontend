@@ -28,7 +28,7 @@ export default function TechStack() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <div className="text-5xl">{item.icon}</div>
+            <div className="text-5xl hover:drop-shadow-[0_0_10px_rgba(128,0,255,0.6)]">{item.icon}</div>
             <span className="text-sm font-medium">{item.name}</span>
           </motion.div>
         ))}
